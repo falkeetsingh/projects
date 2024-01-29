@@ -1,0 +1,84 @@
+
+* {
+margin: 0;
+padding: 0;
+background-color: #f6f8f9;
+}
+
+h1 {
+text-align: center;
+font-size: 3rem;
+font-weight: 200;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 5rem;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-style: oblique;
+}
+
+.inputs {
+height: 10rem;
+text-align: center;
+padding-top: 5rem;
+}
+
+.inputs input {
+height: 2rem;
+width: 30rem;
+margin-right: 1rem;
+border: 0.2rem solid black;
+border-radius: 1rem;
+text-align: center;
+background-color: #ECE2D0;
+color: black;
+font-weight: 700;
+}
+
+.inputs button {
+height: 2rem;
+width: 10rem;
+border: 0.2rem solid black;
+border-radius: 1rem;
+background-color: #555555;
+color: white;
+font-weight: 700;
+}
+
+h4{
+    margin-left: 5rem;
+    font-size: 2rem;
+}
+#todo-list{
+    color: black;
+    height: 20rem;
+    padding-left: 5rem;
+}
+.input-ctrl{
+    display: flex;
+    align-items: flex-end;
+}
+.input-ctrl textarea{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 10rem;
+    height: 2rem;
+    color: black;
+    background-color: white;
+}
+.input-ctrl button{
+    height: 2rem;
+    width: 2.5rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.item{
+    font-size: 1.5rem;
+}
