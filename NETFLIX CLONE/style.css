@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.netflix-logo{
+    height: 80px;
+    width: 200px;
+    background-image: url("Netflix-Brand-Logo.png");
+    background-size: cover;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
+.starting-page{
+    height: 700px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("netflix-bg.jpg");
+    border-bottom: 10px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.starting-page h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+.line2 p{
+    color: white;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.line3 p{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.emailbar{
+    display: flex;
+}
+.emailbar input{
+    background-color: transparent;
+    height: 60px;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    padding-left: 15px;
+    margin-top: 20px;
+    border: 0.2px solid white;
+    border-radius: 0.5rem;
+}
+::placeholder{
+    color: rgb(133,133,133);
+    font-weight: 600;
+}   
+.get-started{
+    height: 60px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 0.5rem ;
+    background-color: #e50914;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+.language select{
+    position: absolute;
+    top: 20px;
+    right: 300px;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    height: 32px;
+    width: 130px;
+    font-size: 1rem;
+    padding: 6px 20px;
+    border-radius: 0.4rem;
+}
+
+.sign-in button{
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    height: 32px;
+    width: 80px;
+    background-color: #e50914;
+    color: white;
+    border-radius: 0.4rem;
+    font-weight: 700;
+}
+.page{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 10px solid gray;
+}
+.page-content{
+    height: 400px;
+    margin: 50px 32px;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    
+}
+.interface1{
+    background-image: url("interface1.png");
+    background-size: cover;
+    height: 350px;
+    width: 450px;
+    position: relative;
+    right: 150px;
+    top: 20px;
+}
+
+.tv{
+    height: 350px;
+    width: 450px;
+    background-image: url("tv.png");
+    background-size: cover;
+}
+.page-text{
+    margin-right: 300px;
+    margin-top: 100px;
+    width: 500px;
+    text-align: left;
+}
+.page-text h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+.page-text p{
+    font-size: 24px;
+}
+.page3-text{
+    margin-right: 70px;
+    margin-top: 100px;
+    width: 500px;
+    text-align: left;
+}
+.page3-text h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+.page3-text p{
+    font-size: 24px;
+}
+.interface2{
+    background-image: url("interface2.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 450px;
+    position: relative;
+    right: 100px;
+    top: 20px;
+}
+footer{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    padding-top: 50px;
+    padding-right: 120px;
+}
+.foot-links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+ul{
+    margin-bottom: 10px;
+}
+ul a{
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: rgba(255,255,255,0.7);
+}
+.foot-language select{
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    height: 32px;
+    width: 130px;
+    font-size: 1rem;
+    padding: 6px 20px;
+    border-radius: 0.4rem;
+    margin-left: 200px;   
+}
+.foot-language p{
+    color: rgba(255,255,255,0.7);
+    margin-left: 200px;
+    margin-top: 30px
+}
